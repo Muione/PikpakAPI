@@ -107,9 +107,9 @@
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "enums.ts",
-    "model.ts",
-    "PikpakApi.ts",
-    "PikpakException.ts",
+    "src/enums.ts",
+    "src/model.ts",
+    "src/PikpakApi.ts",
+    "src/PikpakException.ts",
   ]
 }
