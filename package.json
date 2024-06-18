@@ -1,18 +1,21 @@
 {
   "name": "pikpakapi",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./dist/PikpakApi.js",
+  "types": "./dist/PikpakApi.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
+
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "AGPL-3.0",
   "description": "",
   "dependencies": {
     "axios": "^1.7.2"
   },
   "devDependencies": {
-    "@types/axios": "^0.14.0"
+    "@types/axios": "^0.14.0",
+    "typescript": "^5.4.5"
   }
 }
